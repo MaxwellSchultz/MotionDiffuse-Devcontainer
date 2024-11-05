@@ -1,1 +1,8 @@
 image_classifier/
+__pycache__/
+*.py[cod]
+*$py.class
+data/*
+checkpoint*
+eval_results/*
+
