@@ -1,0 +1,21 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Train",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "train.py",
+            "args": [
+                "--name", "t2m_hiptop_1gpu_8layer_1000",
+                "--batch_size", "128",
+                "--times", "50", 
+                "--num_epochs", "50", 
+                "--dataset_name", "t2m",
+                "--num_layers", "8", 
+                "--diffusion_steps", "1000",
+                "--gpu_id", "0"
+            ]
+        }
+    ]
+}
